@@ -319,3 +319,8 @@ default:
       paths: [ %paths.base%/features/ServiceGroupDependencyConfiguration.feature ]
       contexts:
       - ServiceGroupDependencyConfigurationContext
+
+    traps_snmp_group_configuration:
+      paths: [ %paths.base%/features/TrapsSNMPGroupConfiguration.feature ]
+      contexts:
+      - TrapsSNMPGroupConfigurationContext
